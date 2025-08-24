@@ -1,0 +1,18 @@
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    /* Your existing global CSS styles can go below these directives */
+
+    /* Apply the Inter font to the body or root element if you want it globally */
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Ensure a dark background for the entire app, if not already set in App.js */
+    html, body, #root {
+      height: 100%;
+      margin: 0;
+      background-color: #1a202c; /* A dark gray background, adjust as needed */
+    }
+    

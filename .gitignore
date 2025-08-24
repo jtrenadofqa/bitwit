@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+wheels/
+*.egg
+*.whl
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Editors
+.vscode/        # VS Code settings (if you don't want to share workspace settings)
+.idea/          # IntelliJ IDEA / PyCharm
+*.sublime-project
+*.sublime-workspace
+.DS_Store       # macOS specific
+Thumbs.db       # Windows specific
+ehthumbs.db
+.directory
+
+# Testing
+.coverage
+.coverage.*
+.hypothesis/
+.nox/
+.tox/
+/htmlcov/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.psql
+*.mysql
+/data/*.db # Specifically for your ai_journey.db if it's in a 'data' folder
+/data/*.sqlite
+/data/*.sqlite3
+
+# Logs
+*.log
+logs/
+*.txt # If you generate text logs, exclude them
+
+# OS generated files
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bak
+*.swp
+*~
+.nfs*
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+
+# Docker
+.dockerignore
+
+# Generated images (specific to your project)
+/generated_images/

@@ -1,0 +1,6 @@
+# requirements.txt
+python-dotenv
+google-generativeai
+SQLAlchemy
+Flask
+Flask-CORS

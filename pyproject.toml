@@ -1,0 +1,25 @@
+# BitWit.AI/pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bitwit-ai" # This is the name your package will be installed as. You'll import 'bitwit_ai' (note underscore)
+version = "0.1.0" # A starting version for your package
+description = "AI Agent for BitWit.AI project"
+readme = "README.md" # Optional: if you have a README.md in your project root
+requires-python = ">=3.10" # Based on your environment (python3.10)
+
+# You can list your direct dependencies here. Pip will install them automatically.
+dependencies = [
+    "google-generativeai",
+    "sqlalchemy",
+    "python-dotenv",
+    "markdown",
+    "colorlog"
+]
+
+[tool.setuptools.packages]
+# This tells setuptools to look for Python packages inside the 'src' directory.
+find = {where = ["src"]}
